@@ -1,0 +1,15 @@
+Compile each example, named search_X.c for example, using the following command:
+
+gcc search_X.c -o search_X
+
+The GPU code is slightly different, compile it by typing:
+
+make
+
+Generate the shared data set using:
+
+./generate_A
+
+Run each example using:
+
+./search_X
